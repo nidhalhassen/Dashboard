@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Activities from "./pages/Activities";
+import Users from "./pages/Users";
 import Login from "./pages/Login";
 import "./index.css";
 
@@ -40,6 +41,7 @@ function App() {
                     <Routes>
                       <Route path="/" element={<Dashboard />} />
                       <Route path="/activities" element={<Activities />} />
+                      <Route path="/Users" element={<Users />} />
                     </Routes>
                   </div>
                 </div>

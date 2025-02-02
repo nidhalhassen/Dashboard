@@ -86,7 +86,7 @@ function Sidebar() {
               <ul className="pl-7 mt-2">
                 <li className="mb-4">
                   <Link
-                    to="/users/all"
+                    to="/users"
                     className="text-gray-900 text-sm flex items-center hover:text-[#f84525]"
                   >
                     <span className="w-1 h-1 bg-gray-300 rounded-full mr-3"></span>All
